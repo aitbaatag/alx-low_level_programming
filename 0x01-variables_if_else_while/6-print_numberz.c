@@ -1,17 +1,21 @@
+
+
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - Entry print single digit numbers to base 10
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-char az = 'a';
-while (az <= 'z')
+int i;
+for (i = 0; i <= 9 ; i++)
 {
-putchar(az);
-az++;
+putchar(i + '0');
 }
 putchar('\n');
+
 return (0);
 }
