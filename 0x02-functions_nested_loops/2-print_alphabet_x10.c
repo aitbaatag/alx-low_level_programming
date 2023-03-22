@@ -16,7 +16,7 @@
 
 		while (i < 10)
 		{
-			ch = 'a';
+			aloh = 'a';
 			while (alph <= 'z')
 			{
 				_putchar(alph);
